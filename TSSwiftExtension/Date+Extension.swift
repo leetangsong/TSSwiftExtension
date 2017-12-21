@@ -170,7 +170,7 @@ public extension Date{
     ///更换年数
     func changeYear(year: Int) -> Date {
         var yearFormat = ""
-        for _ in  0..<"\(year)".characters.count{
+        for _ in  0..<"\(year)".count{
             yearFormat += "y"
         }
         let dataStr = "\(year)-\(self.month)-\(self.day) \(self.hour):\(self.minute):\(self.second)"
@@ -179,7 +179,7 @@ public extension Date{
     ///更换月
     func changeMonth(month: Int) -> Date {
         var monthFormat = ""
-        for _ in  0..<"\(month)".characters.count{
+        for _ in  0..<"\(month)".count{
             monthFormat += "M"
         }
         let dataStr = "\(self.year)-\(month)-\(self.day) \(self.hour):\(self.minute):\(self.second)"
@@ -188,7 +188,7 @@ public extension Date{
     ///更换天数
     func changeDay(day: Int) -> Date {
         var dayFormat = ""
-        for _ in  0..<"\(day)".characters.count{
+        for _ in  0..<"\(day)".count{
             dayFormat += "d"
         }
         let dataStr = "\(self.year)-\(self.month)-\(day) \(self.hour):\(self.minute):\(self.second)"
@@ -197,7 +197,7 @@ public extension Date{
     ///更换小时数
     func changeHour(hour: Int) -> Date {
         var hourFormat = ""
-        for _ in  0..<"\(hour)".characters.count{
+        for _ in  0..<"\(hour)".count{
             hourFormat += "H"
         }
         let dataStr = "\(self.year)-\(self.month)-\(self.day) \(hour):\(self.minute):\(self.second)"
@@ -205,7 +205,7 @@ public extension Date{
     }///更换分钟数
     func changeMinute(minute: Int) -> Date {
         var minuteFormat = ""
-        for _ in  0..<"\(minute)".characters.count{
+        for _ in  0..<"\(minute)".count{
             minuteFormat += "m"
         }
         let dataStr = "\(self.year)-\(self.month)-\(self.day) \(self.hour):\(minute):\(self.second)"
@@ -214,7 +214,7 @@ public extension Date{
     ///更换秒数
     func changeSecond(second: Int) -> Date {
         var secondFormat = ""
-        for _ in  0..<"\(second)".characters.count{
+        for _ in  0..<"\(second)".count{
             secondFormat += "s"
         }
         let dataStr = "\(self.year)-\(self.month)-\(self.day) \(self.hour):\(self.minute):\(second)"

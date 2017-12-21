@@ -13,7 +13,7 @@ public extension UIColor{
     public static func colorHex(hex:String,alpha:Float) -> UIColor{
         var cString = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
         
-        if  cString.characters.count<6 {
+        if  cString.count<6 {
             return UIColor.clear
         }
         
@@ -23,7 +23,7 @@ public extension UIColor{
         if cString.hasPrefix("#") {
             cString = cString.substring(from: cString.index(cString.startIndex, offsetBy: 1))
         }
-        if  cString.characters.count != 6 {
+        if  cString.count != 6 {
             return UIColor.clear
         }
         
