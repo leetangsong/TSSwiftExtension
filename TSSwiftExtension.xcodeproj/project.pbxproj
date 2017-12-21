@@ -11,6 +11,14 @@
 		1012FA5D1FEBAE9300B33F25 /* TSSwiftExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1012FA5C1FEBAE9300B33F25 /* TSSwiftExtensionTests.swift */; };
 		1012FA5F1FEBAE9300B33F25 /* TSSwiftExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1012FA511FEBAE9300B33F25 /* TSSwiftExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1012FA691FEBAED300B33F25 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1012FA681FEBAED300B33F25 /* Date+Extension.swift */; };
+		105CE6191FEC09FC00004974 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6111FEC09FB00004974 /* UIButton+Extension.swift */; };
+		105CE61A1FEC09FC00004974 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6121FEC09FB00004974 /* UIView+Extension.swift */; };
+		105CE61B1FEC09FC00004974 /* NSArray+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6131FEC09FB00004974 /* NSArray+Extension.swift */; };
+		105CE61C1FEC09FC00004974 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6141FEC09FB00004974 /* UIColor+Extension.swift */; };
+		105CE61D1FEC09FC00004974 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6151FEC09FC00004974 /* NSObject+Extension.swift */; };
+		105CE61E1FEC09FC00004974 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6161FEC09FC00004974 /* UIImage+Extension.swift */; };
+		105CE61F1FEC09FC00004974 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6171FEC09FC00004974 /* String+Extension.swift */; };
+		105CE6201FEC09FC00004974 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105CE6181FEC09FC00004974 /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +39,14 @@
 		1012FA5C1FEBAE9300B33F25 /* TSSwiftExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSSwiftExtensionTests.swift; sourceTree = "<group>"; };
 		1012FA5E1FEBAE9300B33F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1012FA681FEBAED300B33F25 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		105CE6111FEC09FB00004974 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		105CE6121FEC09FB00004974 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		105CE6131FEC09FB00004974 /* NSArray+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Extension.swift"; sourceTree = "<group>"; };
+		105CE6141FEC09FB00004974 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		105CE6151FEC09FC00004974 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		105CE6161FEC09FC00004974 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		105CE6171FEC09FC00004974 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		105CE6181FEC09FC00004974 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,14 @@
 				1012FA511FEBAE9300B33F25 /* TSSwiftExtension.h */,
 				1012FA521FEBAE9300B33F25 /* Info.plist */,
 				1012FA681FEBAED300B33F25 /* Date+Extension.swift */,
+				105CE6131FEC09FB00004974 /* NSArray+Extension.swift */,
+				105CE6151FEC09FC00004974 /* NSObject+Extension.swift */,
+				105CE6171FEC09FC00004974 /* String+Extension.swift */,
+				105CE6111FEC09FB00004974 /* UIButton+Extension.swift */,
+				105CE6141FEC09FB00004974 /* UIColor+Extension.swift */,
+				105CE6161FEC09FC00004974 /* UIImage+Extension.swift */,
+				105CE6181FEC09FC00004974 /* UILabel+Extension.swift */,
+				105CE6121FEC09FB00004974 /* UIView+Extension.swift */,
 			);
 			path = TSSwiftExtension;
 			sourceTree = "<group>";
@@ -200,7 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105CE61F1FEC09FC00004974 /* String+Extension.swift in Sources */,
+				105CE61A1FEC09FC00004974 /* UIView+Extension.swift in Sources */,
+				105CE61E1FEC09FC00004974 /* UIImage+Extension.swift in Sources */,
 				1012FA691FEBAED300B33F25 /* Date+Extension.swift in Sources */,
+				105CE61B1FEC09FC00004974 /* NSArray+Extension.swift in Sources */,
+				105CE6191FEC09FC00004974 /* UIButton+Extension.swift in Sources */,
+				105CE61C1FEC09FC00004974 /* UIColor+Extension.swift in Sources */,
+				105CE61D1FEC09FC00004974 /* NSObject+Extension.swift in Sources */,
+				105CE6201FEC09FC00004974 /* UILabel+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
