@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "TSSwiftExtension"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0.1"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.summary      = "swift的自用扩展"
 
